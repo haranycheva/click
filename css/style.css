@@ -1,0 +1,206 @@
+button {
+    padding: 0;
+    cursor: pointer;
+}
+
+.list {
+    list-style: none;
+    padding: 0;
+}
+
+img {
+    display: block;
+}
+
+body {
+    margin: 0;
+    font-family: 'Roboto';
+    color: #000000;
+}
+
+html{
+    box-sizing: border-box;
+}
+  html *, ::after, ::before{
+    box-sizing: inherit;
+}
+
+h4, h5, h6, h1, h2, h3, p{
+    margin: 0;
+}
+.link {
+    text-decoration: none;
+}
+
+.user-input{
+    height: 40px;
+    border: 2px solid  #100000;
+    font-size: 24px;
+}
+
+.color{
+    appearance: none;
+    width: 40px;
+    height: 40px;
+    border: none;
+    background-color: transparent;
+}
+
+.color::-webkit-color-swatch{
+    border-radius: 50%;
+    border: none;
+}
+
+.add-user{
+    width: 50px;
+    height: 50px;
+
+    border: transparent;
+}
+
+.users{
+    background-color: #95A472;
+    color: #DDFCAD;
+    padding: 20px ;
+}
+
+.create-user{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.add-user, .submit-user-btn{
+    background-image: url(../checkmark.svg#checkmark);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #C8E087;
+}
+
+.users-list{
+    text-align: left;
+    font-size: 36px;
+}
+
+.user-item{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.selected{
+    background-color: #C8E087;
+    color: #ffffff
+}
+
+.submit-user-btn{
+    height: 35px;
+    width: 35px;
+
+    border: 1px solid #110000;
+    background-color: #D3EE9A;
+}
+
+.delete-user-btn{
+    height: 35px;
+    width: 35px;
+
+    font-size: 26px;
+    text-align: center;
+    font-weight: bold;
+
+    border: 1px solid #110000;
+    background-color: #CE8964;
+}
+
+.user-color{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid  #100000;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+
+    display: flex;
+    align-items: baseline;
+    gap: 50px ;
+    text-align: center;
+}
+
+.scores{
+    width: 500px;
+    padding: 0 20px;
+
+    background-color: #95A472;
+    color: #DDFCAD;
+
+    margin-bottom: 40px;
+    border-radius: 4px;
+}
+
+.score{
+    font-size: 56px;
+}
+
+.score-item{
+    font-size: 36px;
+    text-align: left;
+}
+.click-btn{
+    width: 250px;
+    height: 250px;
+    display: block;
+
+    border-radius: 50%;
+    margin-bottom: 20px;
+
+    font-size: 72px;
+    background-color: #646165;
+    color: #DDFCAD;
+    border: transparent;
+}
+
+.timer{
+    font-size: 86px;
+    color: #82846D;
+
+    margin-bottom: 50px;
+}
+
+.try-again-btn{
+    display: none;
+
+    width: 175px;
+    height: 80px;
+
+    font-size: 36px;
+    background-color: #C8E087;
+    color: #82846D;
+    border: transparent;
+    border-radius: 10px;
+    margin-bottom: 80px;
+}
+
+.counter{
+    width: 400px;
+    height: 125px;
+
+    font-size: 48px;
+    background-color: #D9D9D9;
+    border-radius: 4px;
+}
+
+.click{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+
+
+
