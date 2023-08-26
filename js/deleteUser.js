@@ -21,7 +21,7 @@ export function deleteUser(e){
                             }
                         }
                         saveScores.splice(saveScores.indexOf(user), 1);
-                        localStorage.save(saveScores, KEY__SCORES)
+                        localStorage.save(saveScores, KEY__SCORES);
                     }
                 }
             }
